@@ -1,0 +1,65 @@
+﻿EXPERIMENT NO. 11
+
+//The Code is as Follows:-
+
+#include <stdio.h> //Declaring Header Files
+
+#include <math.h> //Declaring Header Files
+
+int main() /*Actual Starting of  
+Program*/
+
+{
+
+    printf("Name:-Rushi Daulatkar\n"); //Printing Name of Coder
+
+    printf("Roll No.:- 53\n\n"); //Printing Roll No. of Coder
+
+    
+
+double x = 2.696900; /*Declaring DOUBLE Data Type
+
+Variables*/              
+
+double y = 3.966900;
+
+           
+
+    
+
+    
+
+    printf("sin(%f) = %f\n", x, sin(x)); //Printing the Value of SIN 
+
+    printf("cos(%f) = %f\n", x, cos(x)); //Printing the Value of COS
+
+    printf("tan(%f) = %f\n", x, tan(x)); //Printing the Value of TAN
+
+    
+
+    printf("exp(%f) = %f\n", x, exp(x)); /*Printing the Value of 
+EXPONENTIAL*/
+
+    printf("log(%f) = %f\n", x, log(x)); //Printing the Value of LOG
+
+
+
+    printf("log10(%f) = %f\n", x, log10(x)); /*Printing the Value of LOG 
+base10*/
+
+    
+
+    printf("pow(%f, %f) = %f\n", x, y, pow(x, y)); //Printing the Value of resultant 
+that is X Raised to Y*/
+
+    printf("sqrt(%f) = %f\n", x, sqrt(x)); /*Printing the Value of SQUARE 
+ROOT*/
+
+    printf("cbrt(%f) = %f\n",cbrt(x)); /*Printing the Value of CUBE 
+ROOT*/ 
+
+    return 0;
+
+} //END OF THE PROGRAM
+
+Output:-

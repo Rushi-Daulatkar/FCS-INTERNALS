@@ -1,0 +1,78 @@
+﻿Experiment No.7
+
+The code is as follows:-
+
+#include <stdio.h> //Declaring Header Files
+
+void main() //Actual Starting of Program
+
+ {
+
+    int a[15]; //Declaring Array of Size 15
+
+    int i,max,min; /*Declaring INT Data Type 
+                Variable*/
+
+    printf("\nRushi Daulatkar"); //Printing Name of Coder
+
+    printf("\nRoll No.:- 53"); //Printing Name of Coder
+
+    
+
+    printf("Enter any Fiftteen  values:"); //Printning Text 
+
+    for(i=0;i<15;i++) // Initializing For loop 
+
+    {
+
+        scanf("%d",&a[i]); //Taking values from the user
+
+    } //END of for Loop
+
+    max=a[0]; //Assigning Value to Max Variable
+
+    min=a[0]; //Assigning Value to min Variable
+
+    for(i=0;i<15;i++) //Initializing For Loop
+
+    {
+
+        if(a[i]>max) //IF Statement
+
+
+
+        {
+
+            max=a[i]; /*Assigning Value to the Variable 
+in the Loop*/
+
+        } //END of the IF Statement
+
+    } //END of the FOR Loop
+
+    printf("\n Largest Number:%d",max); /*Printing The value for the 
+Largest Number*/
+
+    
+
+    for(i=0;i<15;i++) //Initializing For Loop
+
+    {
+
+        if(a[i]<min) //IF Statement 
+
+        {
+
+            min=a[i]; /*Assigning Value to the Variable 
+in the Loop*/
+
+         } //END of the IF Statement 
+
+    } //END of the For Loop
+
+    printf("\nSmallest Number:%d",min); /*Printing The value for the 
+Largest Number*/
+
+} //END OF THE PROGRAM
+
+OUTPUT:-

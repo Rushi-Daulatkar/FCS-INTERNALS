@@ -1,0 +1,43 @@
+﻿EXPERIMENT NO. 3
+
+//The Code is as Follows:-
+
+#include <stdio.h> //Declaring Header Files
+
+int main() //Actual Starting of Program
+
+{
+
+   printf("Name:-Rushi Daulatkar\n"); //Printing Name of Coder
+
+   printf("Roll No.:-53\n"); //Printing Roll No. of Coder
+
+    char current_char = 'e';
+
+    int i,j; //Decalring "INT" Datatype Variables
+
+    for ( i = 5; i >= 1; i--) //Declaring Parent FOR Loop 
+
+    {
+
+        for ( j = 1; j <= i; j++) //Declaring Nested FOR Loop
+
+        {
+
+            printf("%c ", current_char);
+
+            current_char--;
+
+        } //END of Nested FOR Loop
+
+        printf("\n");
+
+        current_char = 'e';
+
+    } //END of Parent FOR Loop
+
+    return 0;
+
+} //END OF THE PROGRAM
+
+OUTPUT:-

@@ -1,0 +1,60 @@
+﻿EXPERIMENT NO. 2
+
+//The Code is as Follows:-
+
+#include <stdio.h> //Declaring Header Files
+
+main() //Actual Starting of Program
+
+{
+
+  int num, i, count = 0; /*Decalring and Assigning Values of the 
+"INT" Datatype Variables*/
+
+  
+
+  printf("Name:-Rushi Daulatkar\n"); //Printing Name of Coder
+
+  printf("Roll No.:-53\n"); //Printing Roll No. of Coder
+
+  printf("Enter any number:"); //Taking Input From ther user
+
+  scanf("%d", &num); //Taking Input From ther user
+
+  for (i = 1;i <= num;i++) //Declaring  For Loop
+
+{
+
+      if (num % i == 0) //Nested IF Statement 
+
+     {
+
+         count++; //Incrementing Count Variable
+
+      }
+
+} //END OF FOR LOOP
+
+  if (count == 2) //Declaring of IF Statement
+
+  {
+
+
+
+     printf("%d is a Prime number",num);
+
+  }
+
+  else //ELSE Part of IF Statement 
+
+ {
+
+     printf("%d is not a Prime number",num);
+
+  }
+
+  return 0;    
+
+} //END OF THE PROGRAM
+
+OUTPUTS:-

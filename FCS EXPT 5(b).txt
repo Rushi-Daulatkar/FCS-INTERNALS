@@ -1,0 +1,72 @@
+﻿EXPERIMENT NO. 5
+
+//The code is as Follows:-
+
+#include <stdio.h> //declaring Header Files
+
+int main() //Actual Starting of Program
+
+{
+
+    int i,num,count; /*Declaring INT Data Type 
+Variables*/
+
+    printf("Name:-Rushi Daulatkar\n"); //Printing Name of Coder
+
+    printf("Roll No.:- 53\n"); //Printing Roll No. of Coder
+
+    
+
+    num=1; /*Declaring and Assigning the 
+value to the Variables*/
+
+    do //Initializing of Parent DO Loop
+
+    {
+
+        count=0; /*Assigning the value to the 
+Variables*/
+
+        i=1; /*Assigning the value to the 
+Variables*/
+
+    do           //Initializing of Nested DO Loop
+
+    {
+
+       if(num%i==0)  //IF Statement
+
+       {
+
+         count++; //Increment Variable
+
+       } //END of IF Statement
+
+        i++; //Increment Variable
+
+    }           //END of Nested DO Loop
+
+
+
+    while(i<=num); /*Initializing of Nested WHILE 
+*/Loop
+
+    
+
+    if(count==2) //IF Statement
+
+        {
+
+            printf("%d\t",num); //Printing The Values
+
+        } //END of IF Statement
+
+     num++; //Incrementing Variable
+
+   } //END of Parent DO Loop
+
+   while(num<=100);
+
+} //END OF THE PROGRAM
+
+Output:-

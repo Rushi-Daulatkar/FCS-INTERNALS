@@ -1,0 +1,54 @@
+﻿EXPERIMENT NO. 5 
+
+//The code is as Follows:- 
+
+#include <stdio.h>                            //Declaring Header Files 
+
+ 
+
+int main()                                    //Actual Starting of 
+Program 
+
+{ 
+
+    int i;                                     /*Declaring INT Data Type 
+                         Variable*/ 
+
+     
+
+    printf("Name:-Rushi Daulatkar\n");  //Printing Name of Coder 
+
+    printf("Roll No.:- 53\n");    //Printing Roll No. of Coder 
+
+     
+
+    for(i=1;i<10;i++)                          //For loop 
+
+        { 
+
+            if(i%3==0)                         //IF Statement 
+
+                { 
+
+                    break;                     //Using Break Keyword 
+
+                }                              //END of IF Statement 
+
+                printf("\n%d",i);              //Printing The Values 
+
+        }                                      //END of For Loop 
+
+}                                              //END OF THE 
+PROGRAM 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+Output:-

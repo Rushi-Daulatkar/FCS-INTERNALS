@@ -1,0 +1,53 @@
+﻿EXPERIMENT NO. 5 
+
+//The code is as Follows:- 
+
+#include <stdio.h>      //declaring Header Files 
+
+int main()       //Actual Starting of Program 
+
+{ 
+
+   printf("Name: Rushi Daulatkar\n");  //Printing Name of Coder 
+
+   printf("Roll No.:-53\n");    //Printing Roll No. of Coder 
+
+    int d,num,rev,ori;      /*Declaring INT Data Type                 
+       Variables*/ 
+
+    printf("\n Enter Any Number :");              //Taking Input From the User 
+
+    scanf("%d",&num);    //Taking Input From the User 
+
+    ori=num;      /*Declaring and Assigning the   
+      value to the Variables*/ 
+
+    rev=0;      /*Declaring and Assigning the   
+      value to the Variables*/ 
+
+    while(num>0)     //Initializing WHILE Loop 
+
+     { 
+
+         d=num%10;    //Logic of the Program 
+
+         rev=rev*10+d;   //Logic of the Program 
+
+         num=num/10;    //Logic of the Program 
+
+     } 
+
+      printf("\n Reverse of the number %d is : %d",ori,rev);    
+         /*Printing the   
+         Output*/  
+
+             
+           
+
+}                      //END OF THE PROGRAM 
+
+
+
+ 
+
+Output:-

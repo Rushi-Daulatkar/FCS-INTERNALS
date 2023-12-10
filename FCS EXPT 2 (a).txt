@@ -1,0 +1,45 @@
+﻿EXPERIMENT NO. 2
+
+//The Code is as Follows:-
+
+#include <stdio.h> //Declaring Header files
+
+int main() //Actual Program begins
+
+{
+
+   int yr; //Declaring "INT" Data Type Variavble
+
+   printf("Name :Rushi Daulatkar\n"); //Printing Name of Coder
+
+   printf("\n Roll No. :53"); //Printing Roll No. of Coder
+
+   
+
+   printf("\n Enter any Year:"); //Taking the Input From the user
+
+   scanf("\n %d",&yr);
+
+       if(yr%4==0) //initializing IF Statement 
+
+       {
+
+           printf("\n year %d is a leap year",yr);
+
+       }
+
+       else //Initializing ELSE Part 
+
+       {
+
+        printf("\n%d is not a leap year",yr);
+
+       }
+
+    return 0;
+
+} //END OF THE PROGRAM
+
+
+
+OUTPUT:-

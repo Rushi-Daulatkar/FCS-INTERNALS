@@ -1,0 +1,35 @@
+﻿EXPERIMENT NO. 1
+
+#include <stdio.h>          //Decalring Header Files.
+
+void main()                 //Actual Starting of Program.
+
+{
+
+    printf("Name: Rushi Daulatkar\n"); //Printing Name of Coder
+
+    printf("Roll No.:-53\n"); //Printing Roll No. of Coder
+
+    char ch=ch;             /*Declaring Character Type 
+  Variable "ch"*/
+
+    printf("\n Enter lowercase value:");    /*Taking Character Value from 
+User*/
+
+    scanf("%c",&ch);
+
+                                          
+
+    if(ch>=97 && ch<=122)                   //Declaring If statement 
+
+    {
+
+        ch=ch-32;                           //Actual Logic Of the Program
+
+    }
+
+    printf("\n UPPERCASE=%c",ch);           //Printing Value for UPPERCASE
+
+}                                           //END OF THE PROGRAM
+
+OUTPUT:-

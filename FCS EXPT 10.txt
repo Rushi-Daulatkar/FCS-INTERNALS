@@ -1,0 +1,58 @@
+﻿EXPERIMENT NO. 10
+
+//The code is as Follows:-
+
+#include <stdio.h> //Declaring Header Files
+
+void reverse() //Declaring a User-Defined Function
+
+{
+
+    int num,rev,rem; /*Declaring INT Data Type 
+                Variables*/
+
+    printf("Enter any Number :"); //Printing Text
+
+    scanf("%d",&num); //Taking Input From the user 
+
+    
+
+    rev=0; /*Assigning Value to Int Data type 
+Variable*/
+
+    while(num!=0) //Initializing While Loop
+
+    {
+
+        rem=num%10; //Logic of code
+
+        rev=rev*10+rem; //Logic of code
+
+        num=num/10; //Logic of code
+
+        printf("%d\n",rev); //Logic of code
+
+        printf("%d\n",num); //Logic of code
+
+    } //End of While Loop
+
+    printf( "Reverse of Given Number is : %d",rev); //Printing Number
+
+}
+
+
+
+int main() /*Actual Starting of  
+Program*/
+
+{
+
+    printf("Name:-Rushi Daulatkar\n"); //Printing Name of Coder
+
+    printf("Roll.No:-53\n"); //Printing Roll No. of Coder
+
+    reverse(); //Calling a User-Define Function
+
+} //END OF THE PROGRAM
+
+OUTPUT:-

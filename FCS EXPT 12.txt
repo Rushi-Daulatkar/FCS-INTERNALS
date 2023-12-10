@@ -1,0 +1,90 @@
+﻿EXPERIMENT NO. 12
+
+//The Code is Follows:-
+
+#include <stdio.h> //Declaring Header Files
+
+void selection(int n, int* ptr) /*Declaring a User-Defined 
+Parameterised Function*/
+
+{
+
+int i,j,t; /*Declaring INT Data Type 
+Variables*/
+
+for (i= 0; i < n ; i++) //Initializing Parent For Loop
+
+{
+
+    for (j = i + 1; j < n; j++) //Initializing Nested For Loop
+
+        {
+
+            if(*(ptr + j) < *(ptr + i)) //Initializing Nested IF Statement
+
+                {
+
+                    t= *(ptr + i) ; //Logic 
+
+                    *(ptr + i) = *(ptr + j); //Logic 
+
+                    *(ptr + j) = t; //Logic 
+
+                } //End of Nested IF Statement
+
+        } //End of Nested For Loop
+
+} //End of Parent For Loop
+
+
+
+for (i=0; i < n; i++) //Initializing For Loop
+
+{
+
+             printf("%d ", *(ptr + i)); //Printing Text
+
+} //END of For Loop
+
+} //End of User-Defined Function
+
+int main() /*Actual Starting of  
+Program*/
+
+{
+
+printf("Name:-Rushi Daulatkar\n"); //Printing Name of Coder
+
+printf("Roll No.:- 53\n"); //Printing Roll No. of Coder
+
+int n,i; /*Declaring INT Data Type 
+Variables*/
+
+printf("Enter the number of elements: "); //Printing Text
+
+scanf("%d", &n); //Taking Input From the user 
+
+int arr[n]; //Declaring Array of Size n
+
+printf("Enter the numbers: \n", n); //Printing Text
+
+for (i= 0 ; i < n; i++) //Initializing For Loop
+
+{
+
+    scanf("%d", &arr[i]); //Taking Input From the user 
+
+} //END of For Loop
+
+
+
+printf("The sorted elements are:\n"); //Printing Text
+
+selection(n, arr); //Declaring a User-Defined 
+Parameterised Function
+
+return 0; //Returing Null Value
+
+} //END OF THE PROGRAM
+
+Output:-

@@ -1,0 +1,137 @@
+﻿EXPERIMENT NO. 8
+
+//The code is as Follows:-
+
+#include <stdio.h> //Declaring Header Files
+
+int main() //Actual Starting of Program
+
+{
+
+   
+
+    printf("Name:-Rushi Daulatkar\n"); //Printing Name of Coder
+
+    printf("Roll No.:- 53\n"); //Printing Roll No. of Coder
+
+    int i,j,sum; /*Declaring INT Data Type 
+                Variable*/
+
+    int a[3][3]; //Declaring Array of Size 3 x 3
+
+    int b[3][3]; //Declaring Array of Size 3 x 3
+
+    int c[3][3]; //Declaring Array of Size 3 x 3
+
+    
+
+     printf("\nEnter any 3x3 Matrix\n"); //Printing Text
+
+     
+
+     for(i=0;i<3;i++) //Initializing Parent For Loop
+
+     {
+
+         for(j=0;j<3;j++) //Iniializing Nested For Loop
+
+        {
+
+             scanf("%d",&a[i][j]); //Taking Input From the user 
+
+         }printf("\n"); /*Next Line command,End of 
+Nested For Loop*/
+
+
+
+     } //END of Parent For Loop
+
+     printf("\nEntered matrix is \n"); //Printing Text
+
+     
+
+     for(i=0;i<3;i++) //Initializing Parent For Loop
+
+     {
+
+         for(j=0;j<3;j++) //Iniializing Nested For Loop
+
+             {
+
+             printf("%d \t",a[i][j]); //printing Matrix A
+
+                        }printf("\n"); /*Next Line command,End of 
+Nested For Loop*/
+
+    }printf("\n"); /*Next Line command,END of 
+Parent For Loop*/
+
+     
+
+     printf("\nEnter any 3x3 Matrix\n"); //Printing Text
+
+     
+
+     for(i=0;i<3;i++) //Initializing Parent For Loop
+
+     {
+
+         for(j=0;j<3;j++) //Iniializing Nested For Loop
+
+         {
+
+                    scanf("%d",&b[i][j]); //Taking Input From the user 
+
+         }printf("\n"); /*Next Line command,End of 
+Nested For Loop*/
+
+     } /*Next Line command,END of 
+Parent For Loop*/
+
+     printf("\nEntered matrix is \n"); //Printing Text
+
+     
+
+
+
+     for(i=0;i<3;i++) //Initializing Parent For Loop
+
+     {
+
+         for(j=0;j<3;j++) //Iniializing Nested For Loop
+
+         {
+
+                         printf("%d \t",b[i][j]); //printing Matrix B
+
+                    }printf("\n"); /*Next Line command,End of 
+Nested For Loop*/
+
+     }printf("\n"); /*Next Line command,END of 
+Parent For Loop*/
+
+     printf("\nThe New Matrix is as:-\n"); //Printing Text
+
+     for(i=0;i<3;i++) //Initializing Parent For Loop
+
+     {
+
+         for(j=0;j<3;j++) //Iniializing Nested For Loop
+
+        {  
+
+     c[i][j]=a[i][j]+b[i][j]; /*Logic for ADDING two 
+Materices*/
+
+                  printf("%d  \t \t",c[i][j]); /*Print the sum of the two 
+materices*/
+
+         }printf("\n"); /*Next Line command,End of 
+Nested For Loop*/
+
+     }printf("\n"); /*Next Line command,END of 
+Parent For Loop*/
+
+} //END OF THE PROGRAM
+
+OUTPUT:-

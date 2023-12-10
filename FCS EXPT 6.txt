@@ -1,0 +1,290 @@
+﻿Experiment No.6
+
+The code is as follows:-
+
+#include <stdio.h> /*Declaring Header 
+Files*/
+
+#include <stdlib.h> /*Declaring Header 
+Files*/
+
+int main() /*Actual Starting of 
+Program*/
+
+{
+
+printf("Name:-Rushi Daulatkar\n"); /*PrintingName of 
+Coder*/
+
+printf("Roll No.:- 53\n"); /*Printing Roll No.of 
+Coder*/
+
+int num,i,count,ch,ori,rev,sum,d; /*Declaring INT 
+Data Type 
+Variable*/
+
+printf("\n 1.Number is odd or even"); /*Printing out the 
+Choices To perfrom 
+
+opeartions*/ 
+
+printf("\n 2.Test Number is positive,Negative or Zero"); /*Printing out the 
+Choices To perfrom 
+
+opeartions*/ 
+
+printf("\n 3.Test Number is Prime or NOT"); /*Printing out the 
+
+
+
+Choices To perfrom 
+opeartions*/ 
+
+printf("\n 4.Test Numbber is Palimdrome or NOT"); /*Printing out the 
+Choices To perfrom 
+
+opeartions*/ 
+
+printf("\n 5.Test Number is Armstrong or NOT"); /*Printing out the 
+Choices To perfrom 
+
+opeartions*/ 
+
+printf("\n 6.EXIT"); /*Printing out the 
+Choices To perfrom 
+
+opeartions*/ 
+
+printf("\nEnter your choice\n"); /*Taking Input from 
+the user*/
+
+scanf("%d",&ch);
+
+switch(ch) /*Initializing Switch 
+Case*/
+
+{
+
+case 1 : printf("\nEnter any Number :"); //Case 1
+
+scanf("%d",&num); /*Taking Input from 
+the user*/
+
+if(num%2==0) //IF Statement
+
+{
+
+printf("\n Number is Even"); //Printing the values
+
+} /*END of IF 
+Statement*/
+
+else //ELSE Statement
+
+{
+
+printf("\n Number is Odd"); //Printing the values 
+
+
+
+} /*END of IF 
+Statement*/
+
+break; //End Of case 1
+
+            
+
+case 2 : printf("\nEnter Any Number\n"); //Case 2
+
+scanf("%d",&num); /*Taking Input from 
+the user*/
+
+if(num>0) //IF Statement
+
+{
+
+printf("\n Number is Positive"); //Printing the values 
+
+} /*END of IF 
+Statement*/
+
+if(num<0) //IF Statement
+
+{
+
+printf("\n Number is Negative"); //Printing the values 
+
+} /*END of IF 
+Statement*/
+
+if(num==0) //IF Statement
+
+{
+
+printf("\nNumber is Zero"); //Printing the values 
+
+} /*END of IF 
+Statement*/
+
+break; //End Of case 2
+
+            
+
+
+
+case 3 : printf("\nEnter Any Number"); //Case 3
+
+scanf("%d",&num); /*Taking Input from 
+the user*/
+
+for (i = 1;i <= num;i++) /*Initializing of 
+Parent FOR loop*/
+
+{
+
+if (num % i == 0) /*Nested IF 
+Statement*/
+
+{
+
+count++; //Incrementing 
+
+} /*END of Nested IF 
+Statement*/
+
+} /*END of Parent 
+FOR loop*/
+
+if (count == 2) //IF Statement 
+
+{
+
+printf("%d is a Prime number",num); //Printing the values 
+
+} /*END of IF 
+Statement*/
+
+else //ELSE Statement
+
+{
+
+printf("%d is not a Prime number",num); //Printing the values 
+
+} /*END of Else 
+Statement*/
+
+break; //End Of case 3
+
+  
+
+
+
+case 4 : printf("\n Enter Any Number :"); //Case 4 
+
+scanf("%d",&num); /*Taking Input from 
+the user*/ 
+
+ori=num; //Declaring Values 
+to the Variables 
+Using Assigment 
+Operator*/
+
+rev=0; /*Declaring Values 
+to Variable*/
+
+while(num>0) /*Initializing WHILE 
+loop*/
+
+{
+
+d=num%10; //Logic
+
+rev=rev*10+d; //Logic
+
+num=num/10; //Logic
+
+} //END of while Loop
+
+if(ori==rev) //IF Statement
+
+{
+
+printf("\n The Number %d is Palimdrome",ori); //Printing the values 
+
+} /*END of IF 
+Statement*/
+
+else //ELSE Statement
+
+{
+
+    printf("\n The Number %d is  NOT Palindrome",ori); //Printing the values    
+
+} /*END of Else 
+Statement*/
+
+break; //End of Case 4
+
+
+
+case 5 : printf("\nEnter Any Number\n"); //case 5
+
+scanf("%d",&num); /*Taking Input from 
+the user*/ 
+
+ori=num; //Declaring Values 
+to the Variables 
+Using Assigment 
+Operator*/
+
+sum=0;       /*Declaring Values 
+to Variable*/
+
+while(num>0) /*Initializing WHILE 
+loop*/
+
+{
+
+d = num % 10; //Logic
+
+sum = sum + d * d * d; //Logic
+
+num = num / 10; //Logic
+
+} //END of while Loop
+
+if(ori==sum) //IF Statement
+
+{
+
+printf("\nNumber %d is Armstrong",ori); //Printing the values    
+
+} /*END of IF 
+Statement*/
+
+else //ELSE Statement
+
+{
+
+printf("\nNumber is %d NOT Armstrong",ori); //Printing the values    
+
+} /*END of Else 
+Statement*/
+
+
+
+break; //End Of case 5
+
+case 6 : exit(0); //Case 6 
+
+                
+
+default : printf("\n Invalid choice"); //Default Keyword
+
+} /*End of Switch 
+Case*/
+
+} /*END OF THE 
+PROGRAM*/
+
+Output:-

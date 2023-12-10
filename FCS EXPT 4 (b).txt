@@ -1,0 +1,69 @@
+﻿EXPERIMENT NO. 4
+
+//The Code is as Follows:-
+
+#include<stdio.h> //Declaring Header Files
+
+int main() //Actual Starting of Program
+
+{ 
+
+  printf("Name: Rushi Daulatkar\n"); //Printing Name of Coder
+
+  printf("Roll No.:-53\n"); //Printing Roll No. of Coder
+
+     
+
+   int i,j,k,l,m,rows = 5; 
+
+  int num, count = 0; /*Decalring and Assigning Values of the 
+"INT" Datatype Variables*/
+
+for (i=0 ; i < rows ; i++ ) //Declaring Parent FOR Loop
+
+    {
+
+    for ( k = 0; k < rows - i; k++) //Declaring Nested FOR Loop
+
+        {
+
+            printf("* ");
+
+        }
+
+    for(j = 0; j < 2 * i; j++) //Declaring Nested FOR Loop
+
+    {
+
+            printf(" "); 
+
+    }  
+
+    for ( m = 0; m < 2 * i; m++) //Declaring Nested FOR Loop
+
+        {
+
+
+
+            printf(" ");
+
+        }
+
+    for (int l = 0; l < rows - i; l++) //Declaring Nested FOR Loop
+
+        {
+
+            printf("* ");
+
+        }
+
+         printf("\n"); /*PRINTF STATEMENT TO MOVE TO 
+NEXT LINE*/
+
+    } //END of the Parent FOR Loop
+
+ return 0; 
+
+} //END OF THE PROGRAM
+
+OUTPUT:-
